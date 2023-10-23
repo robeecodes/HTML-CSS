@@ -69,14 +69,16 @@ a {
 }
 
 .cake-item {
-    border: 1px dashed yellow;
     width: 275px;
     height: 275px;
     padding: 4px;
 }
 
+.cake-group {
+    width: 275px;
+}
+
 .section-one {
-    border: 1px solid white;
     background-color: darkslateblue;
 }
 
@@ -87,4 +89,6 @@ a {
 
 .container {
     display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
 }
