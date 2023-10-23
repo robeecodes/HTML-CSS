@@ -68,6 +68,13 @@ a {
     font-weight: bold;
 }
 
+.cake-item {
+    border: 1px dashed yellow;
+    width: 275px;
+    height: 275px;
+    padding: 4px;
+}
+
 .section-one {
     border: 1px solid white;
     background-color: darkslateblue;
